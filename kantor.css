@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    border-width: 5px;
+    border-radius: 30px;
+    border-bottom-style: solid;
+    font-weight: lighter;
+    background: rgb(79, 79, 156);
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.header {
+    padding: 20px 10px 10px 10px;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.formBox {
+    padding: 10px;
+    margin: 0px;
+}
+
+.form__list {
+    padding: 0px;
+    max-width: 500px;
+    margin: 5px auto;
+    width: 100%;
+    font-size: 19px;
+}
+
+.list {
+    padding: 10px;
+    margin: 10px;
+}
+
+.listItem {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border-bottom-color: rgb(75, 69, 69);
+    border-bottom-style: solid;
+}
+
+.image {
+    margin-right: 10px;
+    margin-bottom: -10px;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.image--other {
+    margin-bottom: auto;
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+.form__field {
+    padding: 10px;
+    margin: 10px;
+    max-width: 100px;
+    width: 100%;
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button {
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    border-style: solid;
+    border: black;
+}
+
+.buttonClean {
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    border-style: solid;
+    border: black;
+}
+
+.footer {
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+}
