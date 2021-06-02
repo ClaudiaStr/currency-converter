@@ -3,7 +3,9 @@
 [Currency conventer](https://claudiastr.github.io/currency-converter/kantor.html)
 ## General info
 This is a simple currency converter from PLN to EUR, USD, GBP, BTC, CHF.
+
 ![Currency calculator](https://github.com/ClaudiaStr/currency-converter/blob/main/images/myCurrency.png?raw=true)
+
 ## Usage:
 1. Type the value in PLN.
 2. Click on "Przelicz"
