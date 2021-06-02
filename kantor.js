@@ -21,7 +21,7 @@ formElement.addEventListener("submit", (event) => {
     eurElement.innerText = eur.toFixed(2) + " €";
     usdElement.innerText = usd.toFixed(2) + " $";
     gbpElement.innerText = gbp.toFixed(2) + " £";
-    btcElement.innerText = btc.toFixed(4) + " ₿";
+    btcElement.innerText = btc.toFixed(2) + " ₿";
     chfElement.innerText = chf.toFixed(2) + " ₣";
 });
 
