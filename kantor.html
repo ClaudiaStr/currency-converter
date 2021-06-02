@@ -12,11 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="kantor.css" rel="stylesheet">
+    <link href="element.css" rel="stylesheet">
     <script defer src="kantor.js"></script>
 </head>
 
 <body class="body">
-    <div class="container">
+    <!-- <div class="element"> -->
+    <div class="container element">
         <header>
             <h1 class="header">KALKULATOR WALUT</h1>
         </header>
@@ -25,42 +27,34 @@
                 <p><img class="image--other" src="https://i.ibb.co/n80Bd1q/PLN.png" alt="waluta polska"></p>
                 <p>PODAJ KWOTĘ W PLN</p>
                 <label>
-                    <span>
-                        <input class="form__field js-form__fieldFirst" type="number" min="1" step="any"
-                            name=" kwota w pln">
-                    </span>
+                    <input class="form__field js-form__fieldFirst" type="number" min="1" step="any" name=" kwota w pln">
                 </label>
                 <p><button class="button js-buttonCount">PRZELICZ</button></p>
             </div>
             <div class="form__list">
                 <ul class="list">
-                    <li class="listItem">
-                        <span class="listText"><img class="image" src="https://i.ibb.co/FhK17HW/EURO.png"
-                                alt="waluta euro">
-                            EUR </span><span class="js-textEur"></span>
+                    <li class="listItem listText"><img class="image" src="https://i.ibb.co/FhK17HW/EURO.png"
+                            alt="waluta euro">
+                        EUR <span class="js-textEur"></span>
                     </li>
-                    <li class="listItem">
-                        <span class="listText"><img class="image" src="https://i.ibb.co/mb3JvD9/USD.png"
-                                alt="waluta dolar">
-                            USD </span><span class="js-textUsd"> </span>
+                    <li class="listItem listText"><img class="image" src="https://i.ibb.co/mb3JvD9/USD.png"
+                            alt="waluta dolar">
+                        USD <span class="js-textUsd"> </span>
                     </li>
-                    <li class="listItem">
-                        <span class="listText"><img class="image" src="https://i.ibb.co/PW4wCpm/GBP.png"
-                                alt="waluta brytyjska">
-                            GBP </span><span class="js-textGbp"> </span>
+                    <li class="listItem listText"><img class="image" src="https://i.ibb.co/PW4wCpm/GBP.png"
+                            alt="waluta brytyjska">
+                        GBP <span class="js-textGbp"> </span>
                     </li>
-                    <li class="listItem">
-                        <span class="listText"><img class="image" src="https://i.ibb.co/PGWQJsm/BTC.png"
-                                alt="kryptowaluta">
-                            BTC </span><span class="js-textBtc"> </span>
+                    <li class="listItem listText"><img class="image" src="https://i.ibb.co/PGWQJsm/BTC.png"
+                            alt="kryptowaluta">
+                        BTC <span class="js-textBtc"> </span>
                     </li>
-                    <li class="listItem">
-                        <span class="listText"><img class="image" src="https://i.ibb.co/X5t57m0/CHF.png"
-                                alt="waluta frank szwajcarski">
-                            CHF </span><span class="js-textChf"> </span>
+                    <li class="listItem listText"><img class="image" src="https://i.ibb.co/X5t57m0/CHF.png"
+                            alt="waluta frank szwajcarski">
+                        CHF <span class="js-textChf"> </span>
                     </li>
                 </ul>
-                <p><button type="reset" class="buttonClean js-buttonClean">WYCZYŚĆ</button></p>
+                <p><button type="reset" class="button  js-buttonClean">WYCZYŚĆ</button></p>
             </div>
         </form>
         <footer class="footer">
@@ -68,6 +62,7 @@
                 *Przeliczenie zgodnie z kursem waluty na dzień 26.04.2021r.
             </p>
         </footer>
+    </div>
     </div>
 </body>
 
